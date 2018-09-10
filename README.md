@@ -1,7 +1,7 @@
 # geospatial_posts
 define areas for sending posts
 
-### Skill set Needed: Moderate or expert Drupal developer, experience with Drupal modules, PHP
+### Skill set Needed: Moderate or expert Drupal 8 and Drupal 7 developer that has experience with Drupal modules and PHP. This module will be built with Drupal 8 methods (all of the logic and functionality), and include a plugin in the same module for Drupal 7 to connect with current Drupal 7 sites. All Drupal 8 sites will ignore the module's Drupal 7 plugin Hook.
 
 ### Why do we need Geospatial Search and Querying capabilities?
 1.	Allowing HopeOneSource to scale. HopeOneSource will expand to different regions while retaining a single Drupal instance. Therefore we will need to have geospatial querying capabilities to limit posts being sent and received to selected regions in addition to just the distance based limits we place on sent posts. Users in the system will either have the capability to select regions based on searching for them (based on Nominatim search) and/or selecting pre-defined regions.

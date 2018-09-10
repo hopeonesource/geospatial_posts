@@ -5,8 +5,7 @@ define areas for sending posts
 
 ### Why do we need Geospatial Search and Querying capabilities?
 1.	Allowing HopeOneSource to scale. HopeOneSource will expand to different regions while retaining a single Drupal instance. Therefore we will need to have geospatial querying capabilities to limit posts being sent and received to selected regions in addition to just the distance based limits we place on sent posts. Users in the system will either have the capability to select regions based on searching for them (based on Nominatim search) and/or selecting pre-defined regions.
-2.	This added functionality will also be part of one of the requirements when building the Gap Finder 2.0. It will enable us to request metrics through our API per region, therefore limiting the amount of data being sent to the dashboard and speeding up load times.
-UI updates related to this User Story:
+2.	This added functionality will also be part of one of the requirements when building our regional data dashboards, enabling metrics through an API per region, therefore limiting the amount of data being sent to the dashboard and speeding up load times. UI updates related to this User Story:
 1.	When providers send posts, they will have the option of who will receive posts based on 1) all posts within x region (based on returned polygon on Nominatim search); be able to select multiple regions 2) x distance away 3) or within user-defined polygon. There will also be a map that shows where the post will be sent.
 2.	think about this, it would add a lot more complexity, including adding subqueries and storing individual polygons per clients Clients will be able to adjust through their settings, how they receive posts: 1) all posts within x region 2) x distance away 3) or within user-defined polygon
 

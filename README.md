@@ -17,3 +17,6 @@ define areas for sending posts
 ### Detailed implementation plan link:
 https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/edit#
 
+### Environment
+* Any basic vanilla Drupal 8 environment is acceptable for development. 
+

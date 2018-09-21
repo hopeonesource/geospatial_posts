@@ -8,8 +8,8 @@ define areas for sending posts
 2.	This added functionality will also be part of one of the requirements when building our regional data dashboards, enabling metrics through an API per region, therefore limiting the amount of data being sent to the dashboard and speeding up load times. 
 
 ### UI updates related to this User Story:
-•	When providers send posts, they will have the option of who will receive posts based on 1) all posts within x region (based on returned polygon on Nominatim search); be able to select multiple regions 2) x distance away 3) or within user-defined polygon. There will also be a map that shows where the post will be sent.
-•	Think about this, it would add a lot more complexity, including adding subqueries and storing individual polygons per clients Clients will be able to adjust through their settings, how they receive posts: 1) all posts within x region 2) x distance away 3) or within user-defined polygon
+1.	When providers send posts, they will have the option of who will receive posts based on 1) all posts within x region (based on returned polygon on Nominatim search); be able to select multiple regions 2) x distance away 3) or within user-defined polygon. There will also be a map that shows where the post will be sent.
+2.	Think about this, it would add a lot more complexity, including adding subqueries and storing individual polygons per clients Clients will be able to adjust through their settings, how they receive posts: 1) all posts within x region 2) x distance away 3) or within user-defined polygon
 
 ### Basic system components:
 •	UI modifications will be modified on select pages on HopeOneSource. New Map Module will have to be integrated with Drupal 8.

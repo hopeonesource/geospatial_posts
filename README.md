@@ -20,3 +20,5 @@ https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/
 ### Environment
 * Any basic vanilla Drupal 8 environment is acceptable for development. 
 
+### Doc outlining potential Drupal Modules to integrate
+https://docs.google.com/document/d/1zcPsljPYsGa6f9JvfJ9B2c6Y3lzTl04do2RBhmsbyVo/edit

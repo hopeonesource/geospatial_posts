@@ -24,3 +24,23 @@ https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/
 
 ### Doc outlining potential Drupal Modules to integrate
 https://docs.google.com/document/d/1zcPsljPYsGa6f9JvfJ9B2c6Y3lzTl04do2RBhmsbyVo/edit
+
+
+## FAQs
+
+### Are we developing for both Drupal 7 and 8?
+yes, the plan would be to develop 2 versions of the module, with anything that is common between the two be located in a third module.
+
+### Is there an overall system diagram?
+https://docs.google.com/presentation/d/19ySapxChDHorljTLOP4pI5nmlQfstlNOHCR0pHGQeBk/edit?usp=sharing 
+
+### What do the providers and clients see in the system?
+providers making posts: https://www.youtube.com/watch?v=5qKlJFEQJlI
+
+clients registering: https://www.youtube.com/watch?v=FJwb6KX30G0 
+
+### How is user location stored at present?
+We store lat/long of 1.) every client registered (person experiencing homelessness), and from 2.) every service provider's post (available service such as food and legal assistance).
+
+### Any tips for local development?
+The project is hosted on Pantheon. Developers have used Kalabox in the past, but the new generation of it is Lando, which is the main tool we use locally now.

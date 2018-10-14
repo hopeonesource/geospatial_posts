@@ -3,6 +3,11 @@ define areas for sending posts
 
 ### Skill set Needed: Moderate or expert Drupal 8 and Drupal 7 developer that has experience with Drupal modules and PHP. This module will be built with Drupal 8 methods (all of the logic and functionality), and include a plugin in the same module for Drupal 7 to connect with current Drupal 7 sites. All Drupal 8 sites will ignore the module's Drupal 7 plugin Hook.
 
+### Getting Involved
+
+#### Environment
+* Any basic vanilla Drupal 8 environment is acceptable for development. 
+
 ### Why do we need Geospatial Search and Querying capabilities?
 1.	Allowing HopeOneSource to scale. HopeOneSource will expand to different regions while retaining a single Drupal instance. Therefore we will need to have geospatial querying capabilities to limit posts being sent and received to selected regions in addition to just the distance based limits we place on sent posts. Users in the system will either have the capability to select regions based on searching for them (based on Nominatim search) and/or selecting pre-defined regions (such as using GADM).
 2.	This added functionality will also be part of one of the requirements when building our regional data dashboards, enabling metrics through an API per region, therefore limiting the amount of data being sent to the dashboard and speeding up load times. 
@@ -18,9 +23,6 @@ define areas for sending posts
 
 ### Detailed implementation plan link:
 https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/edit#
-
-### Environment
-* Any basic vanilla Drupal 8 environment is acceptable for development. 
 
 ### Doc outlining potential Drupal Modules to integrate
 https://docs.google.com/document/d/1zcPsljPYsGa6f9JvfJ9B2c6Y3lzTl04do2RBhmsbyVo/edit

@@ -6,7 +6,9 @@ define areas for sending posts
 ### Getting Involved
 
 #### Environment
-* Any basic vanilla Drupal 8 environment is acceptable for development. 
+* Any basic vanilla Drupal 8 environment is acceptable for development. Look at guide here if you need help: https://github.com/hopeonesource/geospatial_posts/blob/master/setting_up_Drupal8_locally.md
+
+* Guide on how to install and run the Geocoder Nominatum Module (https://www.drupal.org/project/geolocation_nominatim): 
 
 ### Why do we need Geospatial Search and Querying capabilities?
 1.	Allowing HopeOneSource to scale. HopeOneSource will expand to different regions while retaining a single Drupal instance. Therefore we will need to have geospatial querying capabilities to limit posts being sent and received to selected regions in addition to just the distance based limits we place on sent posts. Users in the system will either have the capability to select regions based on searching for them (based on Nominatim search) and/or selecting pre-defined regions (such as using GADM).

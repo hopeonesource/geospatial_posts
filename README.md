@@ -19,9 +19,9 @@ A feature to define areas for sending posts
 2.	Think about this, it would add a lot more complexity, including adding subqueries and storing individual polygons per clients Clients will be able to adjust through their settings, how they receive posts: 1) all posts within x region 2) x distance away 3) or within user-defined polygon
 
 ### Basic system components:
-•	UI modifications will be modified on select pages on HopeOneSource. New Map Module will have to be integrated with Drupal 8.
-•	Drupal code in Drupal module will process form and send select PostGreSQL spatial queries to remote PostGIS database on AWS and be able to receive back results.
-•	PostGIS database will be set up on AWS 
+- UI modifications will be modified on select pages on HopeOneSource. New Map Module will have to be integrated with Drupal 8.
+- Drupal code in Drupal module will process form and send select PostGreSQL spatial queries to remote PostGIS database on AWS and be able to receive back results.
+- PostGIS database will be set up on AWS 
 
 ### Detailed implementation plan link:
 https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/edit#

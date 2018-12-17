@@ -1,7 +1,7 @@
 # Geospatial_Posts
-define areas for sending posts
+A feature to define areas for sending posts
 
-### Skill set Needed: Moderate or expert Drupal 8 and Drupal 7 developer that has experience with Drupal modules and PHP. This module will be built with Drupal 8 methods (all of the logic and functionality), and include a plugin in the same module for Drupal 7 to connect with current Drupal 7 sites. All Drupal 8 sites will ignore the module's Drupal 7 plugin Hook.
+### Skill set Needed: Moderate or expert Drupal 8 and Drupal 7 developers that have experience with Drupal modules and PHP. This feature will be prioritized to be built on Drupal 8.
 
 ### Getting Involved
 
@@ -33,7 +33,7 @@ https://docs.google.com/document/d/1zcPsljPYsGa6f9JvfJ9B2c6Y3lzTl04do2RBhmsbyVo/
 ## FAQs
 
 ### Are we developing for both Drupal 7 and 8?
-yes, the plan would be to develop 2 versions of the module, with anything that is common between the two be located in a third module.
+yes, the plan would be to develop 2 versions of the feature, with anything that is common between the two be located in a common module.
 
 ### Is there an overall system diagram?
 https://docs.google.com/presentation/d/19ySapxChDHorljTLOP4pI5nmlQfstlNOHCR0pHGQeBk/edit?usp=sharing 

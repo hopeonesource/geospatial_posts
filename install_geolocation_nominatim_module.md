@@ -15,4 +15,4 @@ The GeoLocation Nominatim Module has a patch that should be applied. Also, it se
   - create a libraries directory if it does not already exist
   - if the extracted library is named something like leaflet-control-geocoder-1.5.1, don't forget to rename the directory to leaflet-control-geocoder
   
-4. Using your browser, in the Drupal site go to the extend menu and add the leaflet, geolocation, and geolocation nominatim modules. Then go to the Structure menu add new a content type and add the geolocation field. Then manage the fields and manage the form display, change the widget to the Geolocation nominatum widget and you can also adjust settings. Finally, you can add your content to your site.
+4. Using your browser, in the Drupal site go to the extend menu and add the leaflet, geolocation, geofield and geolocation nominatim modules. Then go to the Structure menu, add new a content type and add the geolocation field. Then manage the fields, and add a new field as a geolocation type. Then manage the form display, and change the widget to the Geolocation nominatum widget and now you can also adjust settings. Finally, you can add your content to your site.

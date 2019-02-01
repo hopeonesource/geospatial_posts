@@ -20,8 +20,10 @@ A feature to define areas for sending posts
 
 ### Basic system components:
 - UI modifications will be modified on select pages on HopeOneSource. The new Map Module will have to be integrated with Drupal 8.
-- Drupal code in Drupal will process the form and send select PostGreSQL spatial queries to remote PostGIS database on AWS and be able to receive back results.
-- PostGIS database will be set up on AWS 
+  - This has started being developed and includes the following 2 repos: 1) https://github.com/d3netxer/geolocation_nominatim 2) https://github.com/d3netxer/leaflet-control-geocoder
+- PostGIS database will be set up on AWS that will contain client lat/lon points
+- Drupal code in Drupal will process the form and send select PostGIS spatial queries to remote PostGIS database on AWS and be able to receive back results.
+
 
 ### Detailed implementation plan link:
 https://docs.google.com/document/d/1HMQ2J9ikfK7IR1aI4ef6alnWBPNncKgik5iK3SJ8lPo/edit#

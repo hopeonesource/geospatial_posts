@@ -19,8 +19,11 @@ A feature to define areas for sending posts
 2.	Future development: More architectural planning is needed...Clients will be able to adjust through their settings, the areas in which they will receive posts: 1) all posts within x region 2) within user-defined polygon 3) or x distance away
 
 ### Basic system components:
-- UI modifications will be modified on select pages on HopeOneSource. The new Map Module will have to be integrated with Drupal 8.
-  - This has started being developed and includes the following 2 repos: 1) https://github.com/d3netxer/geolocation_nominatim 2) https://github.com/d3netxer/leaflet-control-geocoder
+- UI modifications will be modified on select pages on HopeOneSource. Initially we were planning that we would create a new Map Module that would be integrated with Drupal 8.
+  - This was started and includes the following 2 repos: 
+      1) https://github.com/d3netxer/geolocation_nominatim 
+      2) https://github.com/d3netxer/leaflet-control-geocoder
+  - However we are currently exploring moving to a fully decoupled Drupal 8 architecture. If this turns out to be the case, then we will not build a new Map Module and instead create the needed webmaps and functionality within the required React-based forms.
 - PostGIS database will be set up on AWS that will contain client lat/lon points
 - Drupal code in Drupal will process the form and send select PostGIS spatial queries to remote PostGIS database on AWS and be able to receive back results.
 
